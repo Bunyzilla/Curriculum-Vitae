@@ -1,0 +1,68 @@
+/*-----------------------------------------
+        MARGENES Y FONDO
+------------------------------------------*/
+.izquierda{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+html{
+    background-image: url(gris.jpg)
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+/*-----------------------------------------
+        TIPO DE LETRA
+------------------------------------------*/
+h1{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+h2{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.nombre{
+    text-align: center;
+    font: 100% sans-serif;
+
+}
+
+.titulo{
+    text-align: center;
+}
+.datos{
+    text-align: center;
+    font: 90% sans-serif;
+}
+/*-----------------------------------------
+        TABLAS Y LISTAS
+------------------------------------------*/
+table{
+    margin: auto;
+    border-collapse: collapse;
+    border: 3px solid #000000;
+}
+th {
+    font: 100% sans-serif;
+    height: 20px;
+    background-color: #bcbfcd ;
+}
+li{
+    list-style-type: square;
+    margin-bottom: 20px;
+    
+}
